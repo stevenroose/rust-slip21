@@ -4,7 +4,7 @@ extern crate hex;
 #[cfg(feature = "serde")]
 extern crate serde;
 
-use std::{cmp, fmt, hash};
+use std::{cmp, hash};
 
 use bitcoin_hashes::{hmac, sha512, Hash, HashEngine};
 
