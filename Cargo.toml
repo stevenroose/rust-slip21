@@ -15,12 +15,9 @@ name = "slip21"
 path = "src/lib.rs"
 
 [dependencies]
-bitcoin_hashes = "0.6.0"
+bitcoin_hashes = "0.7.0"
 
 [dependencies.serde]
 version = "1"
 optional = true
 features = ["derive"]
-
-[dev-dependencies]
-hex = "0.3.2"
