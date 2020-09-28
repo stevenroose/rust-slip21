@@ -1,6 +1,6 @@
 [package]
 name = "slip21"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Steven Roose <steven@stevenroose.org"]
 license = "CC0-1.0"
 homepage = "https://github.com/stevenroose/rust-slip21/"
@@ -15,7 +15,7 @@ name = "slip21"
 path = "src/lib.rs"
 
 [dependencies]
-bitcoin_hashes = "0.7.0"
+bitcoin_hashes = "0.9.0"
 
 [dependencies.serde]
 version = "1"
